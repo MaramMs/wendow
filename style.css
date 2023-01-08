@@ -1,0 +1,256 @@
+body {
+  background: black;
+}
+.header,
+.oparation-header {
+  background-color: white;
+  border-radius: 3px;
+  text-align: right;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+  color: #3e3e3e;
+  font-weight: 800;
+  padding: 1rem;
+}
+
+.section-card {
+  margin-top: 4rem;
+  background-color: white;
+  padding: 5rem;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+  border-radius: 3px;
+}
+.card {
+  background-color: #51ba78;
+  width: 300px;
+  height: 15rem;
+  border-radius: 10px;
+  text-align: right;
+  color: white;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-oparetion {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+}
+.card-oparetion .img {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+.card-oparetion .img > img {
+  padding: 12px;
+}
+.card-oparetion > span {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card > span {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.bg-blue {
+  background-color: #73beff;
+}
+.bg-orange {
+  background-color: #ff9f66;
+}
+
+.oparation-section {
+  margin-top: 4rem;
+  background-color: white;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+}
+.oparation-header,
+.account-header,
+.pay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+}
+.header .link,
+.account-header > a,
+.pay-header > a {
+  color: #68c6b1;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.table-responsive {
+  padding: 1.3rem;
+}
+.table > thead:first-child > tr:first-child > th {
+  background-color: #f3f3f3;
+  color: #3e3e3e;
+  font-size: 16px;
+}
+.table > tbody > tr > td {
+  color: #a1a1a1;
+  font-size: 18px;
+}
+
+.op {
+  background-color: #9cffcb;
+  color: #61dc9c;
+  width: 70px;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.cover-account {
+  background-color: white;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+  margin-top: 4rem;
+  padding: 2rem;
+  border-radius: 8px;
+}
+.account-header,
+.pay-header {
+  border-bottom: 1px solid #dbdbdb;
+  box-shadow: none;
+  padding: 2rem 1rem;
+}
+.account-header > span,
+.pay-header > span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #3e3e3e;
+}
+.list {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #f2efef;
+}
+.list > li {
+  color: #b0b0b0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.list > li.active {
+  color: #68c6b1;
+  border-bottom-color: #68c6b1;
+  border-bottom-style: solid;
+}
+.account-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  gap: 1rem;
+}
+
+.account-content > p {
+  color: #b0b0b0;
+  font-size: 18px;
+
+  text-align: center;
+}
+
+.pay-section {
+  margin-top: 4rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+  padding: 2rem;
+}
+.pay-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+.pay-content .img {
+  width: 15rem;
+}
+.pay-content .img > img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* pay page */
+.pay-header {
+  background-color: white;
+  display: flex;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 3%);
+  justify-content: space-between;
+}
+.fa-solid {
+  color: #5ebb75;
+  font-size: 20px;
+}
+.header-item {
+  display: flex;
+  flex-direction: column;
+}
+.header-item .item {
+  display: flex;
+  gap: 1rem;
+}
+.header-item .item > span {
+  color: #68c6b1;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.header-item > p {
+  color: #b0b0b0;
+  font-size: 16px;
+}
+.active-pay-header {
+  border-bottom: 1px solid #eeeeee;
+  padding: 1rem;
+  margin-bottom: 2.5rem;
+}
+.active-pay-header > span {
+  color: #b0b0b0;
+  font-size: 20px;
+}
+
+.section-card .thumbnail {
+  padding: 2rem;
+}
+.thumbnail > img {
+  background-color: #ffeeee;
+  padding: 2rem 9rem;
+}
+.caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.caption .item > h3 {
+  color: #4a4949;
+  font-size: 18px;
+}
+
+.caption .item > p {
+  color: #b0b0b0;
+
+  font-size: 14px;
+}
+.caption .fa-solid {
+  color: #ff7373;
+}
+
+.btn-save{
+background-color: #68C6B1;
+color: white;
+padding: 2rem;
+}
+.btn-cancle{
+    background-color: transparent;
+}
