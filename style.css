@@ -1,5 +1,6 @@
-body {
-  background: black;
+section{
+  position: relative;
+  z-index: 9999;
 }
 .header,
 .oparation-header {
